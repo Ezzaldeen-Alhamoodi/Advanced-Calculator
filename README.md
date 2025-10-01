@@ -84,3 +84,6 @@ calculator/
 ## 🌟 متابعة التطور
 
 تابع تطوري في البرمجة من خلال [ملفي الشخصي على GitHub](https://github.com/Ezzaldeen-Alhamoodi)
+
+## 🌐 التجربة المباشرة
+🚀 **شغّل الآلة الحاسبة الآن:** https://ezzaldeen-alhamoodi.github.io/Advanced-Calculator/
