@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آلة حاسبة متقدمة - Ezzaldeen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧮 آلة حاسبة متقدمة</h1>
+            <p>مشروع تقني متكامل بلغة JavaScript</p>
+        </header>
+
+        <div class="calculator">
+            <!-- شاشة العرض -->
+            <div class="display">
+                <div class="previous-operand" id="previous-operand"></div>
+                <div class="current-operand" id="current-operand">0</div>
+            </div>
+
+            <!-- أزرار الآلة الحاسبة -->
+            <div class="buttons">
+                <!-- الصف الأول -->
+                <button class="btn clear" data-action="clear">C</button>
+                <button class="btn delete" data-action="delete">⌫</button>
+                <button class="btn operator" data-operation="percentage">%</button>
+                <button class="btn operator" data-operation="÷">÷</button>
+
+                <!-- الصف الثاني -->
+                <button class="btn number" data-number="7">7</button>
+                <button class="btn number" data-number="8">8</button>
+                <button class="btn number" data-number="9">9</button>
+                <button class="btn operator" data-operation="×">×</button>
+
+                <!-- الصف الثالث -->
+                <button class="btn number" data-number="4">4</button>
+                <button class="btn number" data-number="5">5</button>
+                <button class="btn number" data-number="6">6</button>
+                <button class="btn operator" data-operation="-">−</button>
+
+                <!-- الصف الرابع -->
+                <button class="btn number" data-number="1">1</button>
+                <button class="btn number" data-number="2">2</button>
+                <button class="btn number" data-number="3">3</button>
+                <button class="btn operator" data-operation="+">+</button>
+
+                <!-- الصف الخامس -->
+                <button class="btn number zero" data-number="0">0</button>
+                <button class="btn number" data-number=".">.</button>
+                <button class="btn equals" data-action="calculate">=</button>
+            </div>
+        </div>
+
+        <!-- قسم المميزات -->
+        <section class="features">
+            <h2>🚀 مميزات الآلة الحاسبة</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>🧮 عمليات متقدمة</h3>
+                    <p>تدعم الجمع، الطرح، الضرب، القسمة، والنسب المئوية</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎨 تصميم متجاوب</h3>
+                    <p>تعمل على جميع الأجهزة والاحجام المختلفة</p>
+                </div>
+                <div class="feature-card">
+                    <h3>⚡ JavaScript نقي</h3>
+                    <p>مكتوبة بـ JavaScript خالص بدون مكتبات خارجية</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الكود المصدري -->
+        <section class="code-section">
+            <h2>💻 الكود المصدري</h2>
+            <p>هذا المشروع مفتوح المصدر ويمكنك تطويره كما تشاء</p>
+            <div class="tech-stack">
+                <span class="tech">HTML5</span>
+                <span class="tech">CSS3</span>
+                <span class="tech">JavaScript</span>
+                <span class="tech">Git</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>تم التطوير بواسطة <strong>Ezzaldeen Alhamoodi</strong> 💻</p>
+            <p>مشروع مفتوح المصدر - يمكنك النسخ والتطوير</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
